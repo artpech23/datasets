@@ -1,10 +1,10 @@
-## Datasets
+# Datasets
 
 This repo contains datasets that I collected for the projects of the small scale. All of them seem interesting to investigate for me but I have not done anything specific with them - some vizualisations or modelling at best.
 
 By launching it, I aims to motivate myself to work on something at least once a week to maintain the skills of data collection & preparation.
 
-## Descriptions
+# Descriptions
 
 ### `most_published_authors_in_russia.csv`
 
