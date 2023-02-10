@@ -2,7 +2,7 @@
 
 This repo contains datasets that I collected for the projects of the small scale. All of them seem interesting to investigate for me but I have not done anything specific with them - some vizualisations or modelling at best.
 
-By launching it, I aims to motivate myself to work on something at least once a week to maintain the skills of data collection & preparation.
+By launching it, I aim to motivate myself to work on something at least once in a while to maintain the skills of data collection & preparation.
 
 # Descriptions
 
@@ -21,4 +21,21 @@ The data size is 400 observations of 7 variables. The list of variables in the s
   - `printed_sheets` is the Russian unit of measurement for the printed text (*печатный лист-оттиск*),
   - `full_name` is the full name of the respective author.
   
-  
+ 
+ ### `movies_izhevsk.csv`
+ 
+This file contains the data about the movies shown at the cinema club in Izhevsk, Russia, for app. the last 15 years. Cinema club was started back in 1970s and was called **Mirror** in honor of Tarkovsky's movie. The data was gathered from the [club's website](http://kinohorosho.ru/). My initial goal was to create a tool to search for the movies featured during the meetings. The result can be found in this [not-that-profficient-tableau viz](https://public.tableau.com/app/profile/arthur5379/viz/cinemaclubinIzhevskRussia/cinemaclub). I worked with this tool long ago as a first-year BA sociology student and struggled much to adjust its sizes - so, I guess, this data can be given to the tableau beginners for them to become better then me.
+
+The data size is 912 observations of 11 variables. The list of variables includes:
+  - `russian_name` and `foreign_name`, the movie title given in two languages (if present in website descriptions) respectively,
+  - `href`, i.e. the link to the film announcement,
+  - `director`, given in Russian,
+  - `country`, given in Russian, that can include multiple countries through "-",
+  - `country2`, that signifies whether a movie was produced by multiple countries,
+  - `year` of creation,
+  - `duration` in minutes,
+  - `duration2`, that indicates if the movie is shorter than 50 minutes,
+  - `announced_name`, movie name as announced,
+  - `announced_features`, features as announced.
+
+
